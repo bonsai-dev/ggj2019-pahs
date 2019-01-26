@@ -20,14 +20,18 @@ func _ready():
 
 func update_motion(delta):
 	
-	look_at(get_global_mouse_position())
+	
 	
 	var newPosition = get_global_mouse_position()
 	var oldPosition = position
 	
-	#motion = newPosition.distance_to(oldPosition)
+
 	motion = newPosition - oldPosition 
 	
-	motion = motion.normalized() * speed
+	if motion.length() > $Sprite.texture.get_width():
+		look_at(get_global_mouse_position())
+		motion = motion.normalized() * speed
+	else:
+		motion = motion * 0
 
 	#debugLabel.text = "Length: " + str(motion.length()) + "\nX: " + str(motion.x) + "\nY: " + str(motion.y)
