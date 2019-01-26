@@ -19,20 +19,18 @@ script = ExtResource( 1 )
 speed = 100
 accel = 0.1
 
-[node name="Wrapper" type="Node2D" parent="." index="0"]
-
-[node name="Sprite" type="Sprite" parent="Wrapper" index="0"]
+[node name="Sprite" type="Sprite" parent="." index="0"]
 
 texture = ExtResource( 2 )
 _sections_unfolded = [ "Offset", "Transform", "Z Index" ]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wrapper" index="1"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
 
 position = Vector2( 0.750702, -0.321728 )
 shape = SubResource( 1 )
 _sections_unfolded = [ "Transform" ]
 
-[node name="DebugLabel" type="Label" parent="." index="1"]
+[node name="DebugLabel" type="Label" parent="." index="2"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -53,7 +51,7 @@ percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
 
-[node name="Line2D" type="Line2D" parent="." index="2"]
+[node name="Line2D" type="Line2D" parent="." index="3"]
 
 z_as_relative = false
 points = PoolVector2Array(  )

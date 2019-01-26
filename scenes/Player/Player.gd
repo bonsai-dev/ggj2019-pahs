@@ -22,26 +22,12 @@ func update_motion(delta):
 	
 	look_at(get_global_mouse_position())
 	
+	var newPosition = get_global_mouse_position()
+	var oldPosition = position
 	
-	if Input.is_action_pressed("ui_up") and not Input.is_action_pressed("is_down"):
-		motion.y = lerp(motion.y, -speed, accel)
-	elif Input.is_action_pressed("ui_down") and not Input.is_action_pressed("is_up"):
-		motion.y = lerp(motion.y, speed, accel)
-	else:
-		motion.y = lerp(motion.y, 0, accel)
-		
-	if Input.is_action_pressed("ui_right") and not Input.is_action_pressed("ui_left"):
-		motion.x = lerp(motion.x, speed, accel)
-		
-	elif Input.is_action_pressed("ui_left") and not Input.is_action_pressed("ui_right"):
-		motion.x = lerp(motion.x, -speed, accel)
-		
-	else:
-		motion.x = lerp(motion.x, 0, accel)
-		
-		
-	if motion.length() > speed:
-			motion = motion.normalized() * speed
+	#motion = newPosition.distance_to(oldPosition)
+	motion = newPosition - oldPosition 
 	
+	motion = motion.normalized() * speed
 
-	debugLabel.text = "Length: " + str(motion.length()) + "\nX: " + str(motion.x) + "\nY: " + str(motion.y)
+	#debugLabel.text = "Length: " + str(motion.length()) + "\nX: " + str(motion.x) + "\nY: " + str(motion.y)
