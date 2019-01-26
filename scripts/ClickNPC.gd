@@ -29,6 +29,8 @@ func _process(delta):
 	$DebugLine.set_point_position(0, to_local(position))
 	$DebugLine.set_point_position(1, to_local(get_global_mouse_position()))
 
+	$DebugLine.visible = isSelected
+
 
 func update_motion(delta, target):
 	
@@ -50,7 +52,13 @@ func _on_ClickNPC_input_event(viewport, event, shape_idx):
 	#get_parent().selected_npc = self
 	if clickListener != null and event is InputEventMouseButton and not event.is_pressed():
 		clickListener.npcClicked(self)
+		
+func deselectNpc():
+	isSelected = false
 	
 func _input(event):
 	if isSelected and event is InputEventMouseButton and event.is_pressed():
-		movTarget = event.position
+		if event.button_index == BUTTON_RIGHT:
+			movTarget = event.position
+		if event.button_index == BUTTON_LEFT and position.distance_to(event.position) > 15:
+			deselectNpc()

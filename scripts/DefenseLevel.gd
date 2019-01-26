@@ -5,7 +5,8 @@ var selected_npc
 func _ready():
 	# Called when the node is added to the scene for the first time.
 	# Initialization here
-	$ClickNPC.clickListener = self
+	for guard in $Guards.get_children():
+		guard.clickListener = self
 	pass
 
 #func _process(delta):
@@ -14,6 +15,7 @@ func _ready():
 #	pass
 
 func npcClicked(npc):
+	if selected_npc != null:
+		selected_npc.isSelected = false
 	selected_npc = npc
-	print("npc is set")
 	npc.isSelected = true

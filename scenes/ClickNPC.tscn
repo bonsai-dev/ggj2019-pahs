@@ -9,7 +9,7 @@ custom_solver_bias = 0.0
 radius = 8.77618
 height = 13.3721
 
-[node name="ClickNPC" type="KinematicBody2D" index="0"]
+[node name="ClickNPC" type="KinematicBody2D"]
 
 input_pickable = true
 collision_layer = 1
@@ -61,7 +61,7 @@ default_color = Color( 0.4, 0.5, 1, 1 )
 texture_mode = 111
 sharp_limit = 2.0
 round_precision = 8
-_sections_unfolded = [ "Transform", "Z Index" ]
+_sections_unfolded = [ "Pause", "Transform", "Visibility", "Z Index" ]
 
 [connection signal="input_event" from="." to="." method="_on_ClickNPC_input_event"]
 

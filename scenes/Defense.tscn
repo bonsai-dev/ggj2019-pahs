@@ -1,16 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://scripts/DefenseLevel.gd" type="Script" id=1]
 [ext_resource path="res://Tilesets/Floors.tres" type="TileSet" id=2]
 [ext_resource path="res://scenes/ClickNPC.tscn" type="PackedScene" id=3]
 
-[sub_resource type="NavigationPolygon" id=1]
-
-vertices = PoolVector2Array(  )
-polygons = [  ]
-outlines = [  ]
-
-[node name="Level" type="Node2D"]
+[node name="Level" type="Node2D" index="0"]
 
 script = ExtResource( 1 )
 
@@ -43,13 +37,18 @@ position = Vector2( 1399, 351 )
 
 position = Vector2( 671, 353 )
 
-[node name="ClickNPC" parent="." index="3" instance=ExtResource( 3 )]
+[node name="Guards" type="Node2D" parent="." index="3"]
+
+[node name="ClickNPC" parent="Guards" index="0" instance=ExtResource( 3 )]
 
 position = Vector2( 658, 165 )
 
-[node name="NavigationPolygonInstance" type="NavigationPolygonInstance" parent="." index="4"]
+[node name="ClickNPC2" parent="Guards" index="1" instance=ExtResource( 3 )]
 
-navpoly = SubResource( 1 )
-enabled = true
+position = Vector2( 541, 82 )
+
+[node name="ClickNPC3" parent="Guards" index="2" instance=ExtResource( 3 )]
+
+position = Vector2( 504, 194 )
 
 
