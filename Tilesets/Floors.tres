@@ -1,0 +1,866 @@
+[gd_resource type="TileSet" load_steps=87 format=2]
+
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_01.png" type="Texture" id=1]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_02.png" type="Texture" id=2]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_11.png" type="Texture" id=3]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_12.png" type="Texture" id=4]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_13.png" type="Texture" id=5]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_14.png" type="Texture" id=6]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_15.png" type="Texture" id=7]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_16.png" type="Texture" id=8]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_17.png" type="Texture" id=9]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_18.png" type="Texture" id=10]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_19.png" type="Texture" id=11]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_20.png" type="Texture" id=12]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_03.png" type="Texture" id=13]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_28.png" type="Texture" id=14]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_29.png" type="Texture" id=15]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_30.png" type="Texture" id=16]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_31.png" type="Texture" id=17]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_32.png" type="Texture" id=18]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_33.png" type="Texture" id=19]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_34.png" type="Texture" id=20]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_35.png" type="Texture" id=21]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_36.png" type="Texture" id=22]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_37.png" type="Texture" id=23]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_04.png" type="Texture" id=24]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_38.png" type="Texture" id=25]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_39.png" type="Texture" id=26]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_40.png" type="Texture" id=27]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_41.png" type="Texture" id=28]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_42.png" type="Texture" id=29]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_43.png" type="Texture" id=30]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_44.png" type="Texture" id=31]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_45.png" type="Texture" id=32]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_46.png" type="Texture" id=33]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_47.png" type="Texture" id=34]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_05.png" type="Texture" id=35]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_55.png" type="Texture" id=36]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_56.png" type="Texture" id=37]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_57.png" type="Texture" id=38]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_58.png" type="Texture" id=39]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_59.png" type="Texture" id=40]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_60.png" type="Texture" id=41]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_61.png" type="Texture" id=42]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_62.png" type="Texture" id=43]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_63.png" type="Texture" id=44]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_64.png" type="Texture" id=45]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_06.png" type="Texture" id=46]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_65.png" type="Texture" id=47]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_66.png" type="Texture" id=48]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_67.png" type="Texture" id=49]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_68.png" type="Texture" id=50]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_69.png" type="Texture" id=51]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_70.png" type="Texture" id=52]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_71.png" type="Texture" id=53]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_72.png" type="Texture" id=54]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_73.png" type="Texture" id=55]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_74.png" type="Texture" id=56]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_07.png" type="Texture" id=57]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_75.png" type="Texture" id=58]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_76.png" type="Texture" id=59]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_77.png" type="Texture" id=60]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_78.png" type="Texture" id=61]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_79.png" type="Texture" id=62]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_80.png" type="Texture" id=63]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_82.png" type="Texture" id=64]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_83.png" type="Texture" id=65]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_84.png" type="Texture" id=66]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_85.png" type="Texture" id=67]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_08.png" type="Texture" id=68]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_86.png" type="Texture" id=69]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_87.png" type="Texture" id=70]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_88.png" type="Texture" id=71]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_89.png" type="Texture" id=72]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_90.png" type="Texture" id=73]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_91.png" type="Texture" id=74]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_92.png" type="Texture" id=75]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_93.png" type="Texture" id=76]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_94.png" type="Texture" id=77]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_95.png" type="Texture" id=78]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_09.png" type="Texture" id=79]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_96.png" type="Texture" id=80]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_97.png" type="Texture" id=81]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_98.png" type="Texture" id=82]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_99.png" type="Texture" id=83]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_100.png" type="Texture" id=84]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_101.png" type="Texture" id=85]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_10.png" type="Texture" id=86]
+
+[resource]
+
+0/name = "tile_01"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 64, 64 )
+0/is_autotile = false
+0/occluder_offset = Vector2( 32, 32 )
+0/navigation_offset = Vector2( 32, 32 )
+0/shapes = [  ]
+1/name = "tile_02"
+1/texture = ExtResource( 2 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 64, 64 )
+1/is_autotile = false
+1/occluder_offset = Vector2( 32, 32 )
+1/navigation_offset = Vector2( 32, 32 )
+1/shapes = [  ]
+2/name = "tile_03"
+2/texture = ExtResource( 13 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 64, 64 )
+2/is_autotile = false
+2/occluder_offset = Vector2( 32, 32 )
+2/navigation_offset = Vector2( 32, 32 )
+2/shapes = [  ]
+3/name = "tile_04"
+3/texture = ExtResource( 24 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 64, 64 )
+3/is_autotile = false
+3/occluder_offset = Vector2( 32, 32 )
+3/navigation_offset = Vector2( 32, 32 )
+3/shapes = [  ]
+4/name = "tile_05"
+4/texture = ExtResource( 35 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 64, 64 )
+4/is_autotile = false
+4/occluder_offset = Vector2( 32, 32 )
+4/navigation_offset = Vector2( 32, 32 )
+4/shapes = [  ]
+5/name = "tile_06"
+5/texture = ExtResource( 46 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 0, 64, 64 )
+5/is_autotile = false
+5/occluder_offset = Vector2( 32, 32 )
+5/navigation_offset = Vector2( 32, 32 )
+5/shapes = [  ]
+6/name = "tile_07"
+6/texture = ExtResource( 57 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 0, 0, 64, 64 )
+6/is_autotile = false
+6/occluder_offset = Vector2( 32, 32 )
+6/navigation_offset = Vector2( 32, 32 )
+6/shapes = [  ]
+7/name = "tile_08"
+7/texture = ExtResource( 68 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 0, 0, 64, 64 )
+7/is_autotile = false
+7/occluder_offset = Vector2( 32, 32 )
+7/navigation_offset = Vector2( 32, 32 )
+7/shapes = [  ]
+8/name = "tile_09"
+8/texture = ExtResource( 79 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 0, 0, 64, 64 )
+8/is_autotile = false
+8/occluder_offset = Vector2( 32, 32 )
+8/navigation_offset = Vector2( 32, 32 )
+8/shapes = [  ]
+9/name = "tile_10"
+9/texture = ExtResource( 86 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 0, 0, 64, 64 )
+9/is_autotile = false
+9/occluder_offset = Vector2( 32, 32 )
+9/navigation_offset = Vector2( 32, 32 )
+9/shapes = [  ]
+10/name = "tile_11"
+10/texture = ExtResource( 3 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 0, 0, 64, 64 )
+10/is_autotile = false
+10/occluder_offset = Vector2( 32, 32 )
+10/navigation_offset = Vector2( 32, 32 )
+10/shapes = [  ]
+11/name = "tile_12"
+11/texture = ExtResource( 4 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 0, 0, 64, 64 )
+11/is_autotile = false
+11/occluder_offset = Vector2( 32, 32 )
+11/navigation_offset = Vector2( 32, 32 )
+11/shapes = [  ]
+12/name = "tile_13"
+12/texture = ExtResource( 5 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 0, 0, 64, 64 )
+12/is_autotile = false
+12/occluder_offset = Vector2( 32, 32 )
+12/navigation_offset = Vector2( 32, 32 )
+12/shapes = [  ]
+13/name = "tile_14"
+13/texture = ExtResource( 6 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 0, 0, 64, 64 )
+13/is_autotile = false
+13/occluder_offset = Vector2( 32, 32 )
+13/navigation_offset = Vector2( 32, 32 )
+13/shapes = [  ]
+14/name = "tile_15"
+14/texture = ExtResource( 7 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 0, 0, 64, 64 )
+14/is_autotile = false
+14/occluder_offset = Vector2( 32, 32 )
+14/navigation_offset = Vector2( 32, 32 )
+14/shapes = [  ]
+15/name = "tile_16"
+15/texture = ExtResource( 8 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 0, 0, 64, 64 )
+15/is_autotile = false
+15/occluder_offset = Vector2( 32, 32 )
+15/navigation_offset = Vector2( 32, 32 )
+15/shapes = [  ]
+16/name = "tile_17"
+16/texture = ExtResource( 9 )
+16/tex_offset = Vector2( 0, 0 )
+16/modulate = Color( 1, 1, 1, 1 )
+16/region = Rect2( 0, 0, 64, 64 )
+16/is_autotile = false
+16/occluder_offset = Vector2( 32, 32 )
+16/navigation_offset = Vector2( 32, 32 )
+16/shapes = [  ]
+17/name = "tile_18"
+17/texture = ExtResource( 10 )
+17/tex_offset = Vector2( 0, 0 )
+17/modulate = Color( 1, 1, 1, 1 )
+17/region = Rect2( 0, 0, 64, 64 )
+17/is_autotile = false
+17/occluder_offset = Vector2( 32, 32 )
+17/navigation_offset = Vector2( 32, 32 )
+17/shapes = [  ]
+18/name = "tile_19"
+18/texture = ExtResource( 11 )
+18/tex_offset = Vector2( 0, 0 )
+18/modulate = Color( 1, 1, 1, 1 )
+18/region = Rect2( 0, 0, 64, 64 )
+18/is_autotile = false
+18/occluder_offset = Vector2( 32, 32 )
+18/navigation_offset = Vector2( 32, 32 )
+18/shapes = [  ]
+19/name = "tile_20"
+19/texture = ExtResource( 12 )
+19/tex_offset = Vector2( 0, 0 )
+19/modulate = Color( 1, 1, 1, 1 )
+19/region = Rect2( 0, 0, 64, 64 )
+19/is_autotile = false
+19/occluder_offset = Vector2( 32, 32 )
+19/navigation_offset = Vector2( 32, 32 )
+19/shapes = [  ]
+20/name = "tile_28"
+20/texture = ExtResource( 14 )
+20/tex_offset = Vector2( 0, 0 )
+20/modulate = Color( 1, 1, 1, 1 )
+20/region = Rect2( 0, 0, 64, 64 )
+20/is_autotile = false
+20/occluder_offset = Vector2( 32, 32 )
+20/navigation_offset = Vector2( 32, 32 )
+20/shapes = [  ]
+21/name = "tile_29"
+21/texture = ExtResource( 15 )
+21/tex_offset = Vector2( 0, 0 )
+21/modulate = Color( 1, 1, 1, 1 )
+21/region = Rect2( 0, 0, 64, 64 )
+21/is_autotile = false
+21/occluder_offset = Vector2( 32, 32 )
+21/navigation_offset = Vector2( 32, 32 )
+21/shapes = [  ]
+22/name = "tile_30"
+22/texture = ExtResource( 16 )
+22/tex_offset = Vector2( 0, 0 )
+22/modulate = Color( 1, 1, 1, 1 )
+22/region = Rect2( 0, 0, 64, 64 )
+22/is_autotile = false
+22/occluder_offset = Vector2( 32, 32 )
+22/navigation_offset = Vector2( 32, 32 )
+22/shapes = [  ]
+23/name = "tile_31"
+23/texture = ExtResource( 17 )
+23/tex_offset = Vector2( 0, 0 )
+23/modulate = Color( 1, 1, 1, 1 )
+23/region = Rect2( 0, 0, 64, 64 )
+23/is_autotile = false
+23/occluder_offset = Vector2( 32, 32 )
+23/navigation_offset = Vector2( 32, 32 )
+23/shapes = [  ]
+24/name = "tile_32"
+24/texture = ExtResource( 18 )
+24/tex_offset = Vector2( 0, 0 )
+24/modulate = Color( 1, 1, 1, 1 )
+24/region = Rect2( 0, 0, 64, 64 )
+24/is_autotile = false
+24/occluder_offset = Vector2( 32, 32 )
+24/navigation_offset = Vector2( 32, 32 )
+24/shapes = [  ]
+25/name = "tile_33"
+25/texture = ExtResource( 19 )
+25/tex_offset = Vector2( 0, 0 )
+25/modulate = Color( 1, 1, 1, 1 )
+25/region = Rect2( 0, 0, 64, 64 )
+25/is_autotile = false
+25/occluder_offset = Vector2( 32, 32 )
+25/navigation_offset = Vector2( 32, 32 )
+25/shapes = [  ]
+26/name = "tile_34"
+26/texture = ExtResource( 20 )
+26/tex_offset = Vector2( 0, 0 )
+26/modulate = Color( 1, 1, 1, 1 )
+26/region = Rect2( 0, 0, 64, 64 )
+26/is_autotile = false
+26/occluder_offset = Vector2( 32, 32 )
+26/navigation_offset = Vector2( 32, 32 )
+26/shapes = [  ]
+27/name = "tile_35"
+27/texture = ExtResource( 21 )
+27/tex_offset = Vector2( 0, 0 )
+27/modulate = Color( 1, 1, 1, 1 )
+27/region = Rect2( 0, 0, 64, 64 )
+27/is_autotile = false
+27/occluder_offset = Vector2( 32, 32 )
+27/navigation_offset = Vector2( 32, 32 )
+27/shapes = [  ]
+28/name = "tile_36"
+28/texture = ExtResource( 22 )
+28/tex_offset = Vector2( 0, 0 )
+28/modulate = Color( 1, 1, 1, 1 )
+28/region = Rect2( 0, 0, 64, 64 )
+28/is_autotile = false
+28/occluder_offset = Vector2( 32, 32 )
+28/navigation_offset = Vector2( 32, 32 )
+28/shapes = [  ]
+29/name = "tile_37"
+29/texture = ExtResource( 23 )
+29/tex_offset = Vector2( 0, 0 )
+29/modulate = Color( 1, 1, 1, 1 )
+29/region = Rect2( 0, 0, 64, 64 )
+29/is_autotile = false
+29/occluder_offset = Vector2( 32, 32 )
+29/navigation_offset = Vector2( 32, 32 )
+29/shapes = [  ]
+30/name = "tile_38"
+30/texture = ExtResource( 25 )
+30/tex_offset = Vector2( 0, 0 )
+30/modulate = Color( 1, 1, 1, 1 )
+30/region = Rect2( 0, 0, 64, 64 )
+30/is_autotile = false
+30/occluder_offset = Vector2( 32, 32 )
+30/navigation_offset = Vector2( 32, 32 )
+30/shapes = [  ]
+31/name = "tile_39"
+31/texture = ExtResource( 26 )
+31/tex_offset = Vector2( 0, 0 )
+31/modulate = Color( 1, 1, 1, 1 )
+31/region = Rect2( 0, 0, 64, 64 )
+31/is_autotile = false
+31/occluder_offset = Vector2( 32, 32 )
+31/navigation_offset = Vector2( 32, 32 )
+31/shapes = [  ]
+32/name = "tile_40"
+32/texture = ExtResource( 27 )
+32/tex_offset = Vector2( 0, 0 )
+32/modulate = Color( 1, 1, 1, 1 )
+32/region = Rect2( 0, 0, 64, 64 )
+32/is_autotile = false
+32/occluder_offset = Vector2( 32, 32 )
+32/navigation_offset = Vector2( 32, 32 )
+32/shapes = [  ]
+33/name = "tile_41"
+33/texture = ExtResource( 28 )
+33/tex_offset = Vector2( 0, 0 )
+33/modulate = Color( 1, 1, 1, 1 )
+33/region = Rect2( 0, 0, 64, 64 )
+33/is_autotile = false
+33/occluder_offset = Vector2( 32, 32 )
+33/navigation_offset = Vector2( 32, 32 )
+33/shapes = [  ]
+34/name = "tile_42"
+34/texture = ExtResource( 29 )
+34/tex_offset = Vector2( 0, 0 )
+34/modulate = Color( 1, 1, 1, 1 )
+34/region = Rect2( 0, 0, 64, 64 )
+34/is_autotile = false
+34/occluder_offset = Vector2( 32, 32 )
+34/navigation_offset = Vector2( 32, 32 )
+34/shapes = [  ]
+35/name = "tile_43"
+35/texture = ExtResource( 30 )
+35/tex_offset = Vector2( 0, 0 )
+35/modulate = Color( 1, 1, 1, 1 )
+35/region = Rect2( 0, 0, 64, 64 )
+35/is_autotile = false
+35/occluder_offset = Vector2( 32, 32 )
+35/navigation_offset = Vector2( 32, 32 )
+35/shapes = [  ]
+36/name = "tile_44"
+36/texture = ExtResource( 31 )
+36/tex_offset = Vector2( 0, 0 )
+36/modulate = Color( 1, 1, 1, 1 )
+36/region = Rect2( 0, 0, 64, 64 )
+36/is_autotile = false
+36/occluder_offset = Vector2( 32, 32 )
+36/navigation_offset = Vector2( 32, 32 )
+36/shapes = [  ]
+37/name = "tile_45"
+37/texture = ExtResource( 32 )
+37/tex_offset = Vector2( 0, 0 )
+37/modulate = Color( 1, 1, 1, 1 )
+37/region = Rect2( 0, 0, 64, 64 )
+37/is_autotile = false
+37/occluder_offset = Vector2( 32, 32 )
+37/navigation_offset = Vector2( 32, 32 )
+37/shapes = [  ]
+38/name = "tile_46"
+38/texture = ExtResource( 33 )
+38/tex_offset = Vector2( 0, 0 )
+38/modulate = Color( 1, 1, 1, 1 )
+38/region = Rect2( 0, 0, 64, 64 )
+38/is_autotile = false
+38/occluder_offset = Vector2( 32, 32 )
+38/navigation_offset = Vector2( 32, 32 )
+38/shapes = [  ]
+39/name = "tile_47"
+39/texture = ExtResource( 34 )
+39/tex_offset = Vector2( 0, 0 )
+39/modulate = Color( 1, 1, 1, 1 )
+39/region = Rect2( 0, 0, 64, 64 )
+39/is_autotile = false
+39/occluder_offset = Vector2( 32, 32 )
+39/navigation_offset = Vector2( 32, 32 )
+39/shapes = [  ]
+40/name = "tile_55"
+40/texture = ExtResource( 36 )
+40/tex_offset = Vector2( 0, 0 )
+40/modulate = Color( 1, 1, 1, 1 )
+40/region = Rect2( 0, 0, 64, 64 )
+40/is_autotile = false
+40/occluder_offset = Vector2( 32, 32 )
+40/navigation_offset = Vector2( 32, 32 )
+40/shapes = [  ]
+41/name = "tile_56"
+41/texture = ExtResource( 37 )
+41/tex_offset = Vector2( 0, 0 )
+41/modulate = Color( 1, 1, 1, 1 )
+41/region = Rect2( 0, 0, 64, 64 )
+41/is_autotile = false
+41/occluder_offset = Vector2( 32, 32 )
+41/navigation_offset = Vector2( 32, 32 )
+41/shapes = [  ]
+42/name = "tile_57"
+42/texture = ExtResource( 38 )
+42/tex_offset = Vector2( 0, 0 )
+42/modulate = Color( 1, 1, 1, 1 )
+42/region = Rect2( 0, 0, 64, 64 )
+42/is_autotile = false
+42/occluder_offset = Vector2( 32, 32 )
+42/navigation_offset = Vector2( 32, 32 )
+42/shapes = [  ]
+43/name = "tile_58"
+43/texture = ExtResource( 39 )
+43/tex_offset = Vector2( 0, 0 )
+43/modulate = Color( 1, 1, 1, 1 )
+43/region = Rect2( 0, 0, 64, 64 )
+43/is_autotile = false
+43/occluder_offset = Vector2( 32, 32 )
+43/navigation_offset = Vector2( 32, 32 )
+43/shapes = [  ]
+44/name = "tile_59"
+44/texture = ExtResource( 40 )
+44/tex_offset = Vector2( 0, 0 )
+44/modulate = Color( 1, 1, 1, 1 )
+44/region = Rect2( 0, 0, 64, 64 )
+44/is_autotile = false
+44/occluder_offset = Vector2( 32, 32 )
+44/navigation_offset = Vector2( 32, 32 )
+44/shapes = [  ]
+45/name = "tile_60"
+45/texture = ExtResource( 41 )
+45/tex_offset = Vector2( 0, 0 )
+45/modulate = Color( 1, 1, 1, 1 )
+45/region = Rect2( 0, 0, 64, 64 )
+45/is_autotile = false
+45/occluder_offset = Vector2( 32, 32 )
+45/navigation_offset = Vector2( 32, 32 )
+45/shapes = [  ]
+46/name = "tile_61"
+46/texture = ExtResource( 42 )
+46/tex_offset = Vector2( 0, 0 )
+46/modulate = Color( 1, 1, 1, 1 )
+46/region = Rect2( 0, 0, 64, 64 )
+46/is_autotile = false
+46/occluder_offset = Vector2( 32, 32 )
+46/navigation_offset = Vector2( 32, 32 )
+46/shapes = [  ]
+47/name = "tile_62"
+47/texture = ExtResource( 43 )
+47/tex_offset = Vector2( 0, 0 )
+47/modulate = Color( 1, 1, 1, 1 )
+47/region = Rect2( 0, 0, 64, 64 )
+47/is_autotile = false
+47/occluder_offset = Vector2( 32, 32 )
+47/navigation_offset = Vector2( 32, 32 )
+47/shapes = [  ]
+48/name = "tile_63"
+48/texture = ExtResource( 44 )
+48/tex_offset = Vector2( 0, 0 )
+48/modulate = Color( 1, 1, 1, 1 )
+48/region = Rect2( 0, 0, 64, 64 )
+48/is_autotile = false
+48/occluder_offset = Vector2( 32, 32 )
+48/navigation_offset = Vector2( 32, 32 )
+48/shapes = [  ]
+49/name = "tile_64"
+49/texture = ExtResource( 45 )
+49/tex_offset = Vector2( 0, 0 )
+49/modulate = Color( 1, 1, 1, 1 )
+49/region = Rect2( 0, 0, 64, 64 )
+49/is_autotile = false
+49/occluder_offset = Vector2( 32, 32 )
+49/navigation_offset = Vector2( 32, 32 )
+49/shapes = [  ]
+50/name = "tile_65"
+50/texture = ExtResource( 47 )
+50/tex_offset = Vector2( 0, 0 )
+50/modulate = Color( 1, 1, 1, 1 )
+50/region = Rect2( 0, 0, 64, 64 )
+50/is_autotile = false
+50/occluder_offset = Vector2( 32, 32 )
+50/navigation_offset = Vector2( 32, 32 )
+50/shapes = [  ]
+51/name = "tile_66"
+51/texture = ExtResource( 48 )
+51/tex_offset = Vector2( 0, 0 )
+51/modulate = Color( 1, 1, 1, 1 )
+51/region = Rect2( 0, 0, 64, 64 )
+51/is_autotile = false
+51/occluder_offset = Vector2( 32, 32 )
+51/navigation_offset = Vector2( 32, 32 )
+51/shapes = [  ]
+52/name = "tile_67"
+52/texture = ExtResource( 49 )
+52/tex_offset = Vector2( 0, 0 )
+52/modulate = Color( 1, 1, 1, 1 )
+52/region = Rect2( 0, 0, 64, 64 )
+52/is_autotile = false
+52/occluder_offset = Vector2( 32, 32 )
+52/navigation_offset = Vector2( 32, 32 )
+52/shapes = [  ]
+53/name = "tile_68"
+53/texture = ExtResource( 50 )
+53/tex_offset = Vector2( 0, 0 )
+53/modulate = Color( 1, 1, 1, 1 )
+53/region = Rect2( 0, 0, 64, 64 )
+53/is_autotile = false
+53/occluder_offset = Vector2( 32, 32 )
+53/navigation_offset = Vector2( 32, 32 )
+53/shapes = [  ]
+54/name = "tile_69"
+54/texture = ExtResource( 51 )
+54/tex_offset = Vector2( 0, 0 )
+54/modulate = Color( 1, 1, 1, 1 )
+54/region = Rect2( 0, 0, 64, 64 )
+54/is_autotile = false
+54/occluder_offset = Vector2( 32, 32 )
+54/navigation_offset = Vector2( 32, 32 )
+54/shapes = [  ]
+55/name = "tile_70"
+55/texture = ExtResource( 52 )
+55/tex_offset = Vector2( 0, 0 )
+55/modulate = Color( 1, 1, 1, 1 )
+55/region = Rect2( 0, 0, 64, 64 )
+55/is_autotile = false
+55/occluder_offset = Vector2( 32, 32 )
+55/navigation_offset = Vector2( 32, 32 )
+55/shapes = [  ]
+56/name = "tile_71"
+56/texture = ExtResource( 53 )
+56/tex_offset = Vector2( 0, 0 )
+56/modulate = Color( 1, 1, 1, 1 )
+56/region = Rect2( 0, 0, 64, 64 )
+56/is_autotile = false
+56/occluder_offset = Vector2( 32, 32 )
+56/navigation_offset = Vector2( 32, 32 )
+56/shapes = [  ]
+57/name = "tile_72"
+57/texture = ExtResource( 54 )
+57/tex_offset = Vector2( 0, 0 )
+57/modulate = Color( 1, 1, 1, 1 )
+57/region = Rect2( 0, 0, 64, 64 )
+57/is_autotile = false
+57/occluder_offset = Vector2( 32, 32 )
+57/navigation_offset = Vector2( 32, 32 )
+57/shapes = [  ]
+58/name = "tile_73"
+58/texture = ExtResource( 55 )
+58/tex_offset = Vector2( 0, 0 )
+58/modulate = Color( 1, 1, 1, 1 )
+58/region = Rect2( 0, 0, 64, 64 )
+58/is_autotile = false
+58/occluder_offset = Vector2( 32, 32 )
+58/navigation_offset = Vector2( 32, 32 )
+58/shapes = [  ]
+59/name = "tile_74"
+59/texture = ExtResource( 56 )
+59/tex_offset = Vector2( 0, 0 )
+59/modulate = Color( 1, 1, 1, 1 )
+59/region = Rect2( 0, 0, 64, 64 )
+59/is_autotile = false
+59/occluder_offset = Vector2( 32, 32 )
+59/navigation_offset = Vector2( 32, 32 )
+59/shapes = [  ]
+60/name = "tile_75"
+60/texture = ExtResource( 58 )
+60/tex_offset = Vector2( 0, 0 )
+60/modulate = Color( 1, 1, 1, 1 )
+60/region = Rect2( 0, 0, 64, 64 )
+60/is_autotile = false
+60/occluder_offset = Vector2( 32, 32 )
+60/navigation_offset = Vector2( 32, 32 )
+60/shapes = [  ]
+61/name = "tile_76"
+61/texture = ExtResource( 59 )
+61/tex_offset = Vector2( 0, 0 )
+61/modulate = Color( 1, 1, 1, 1 )
+61/region = Rect2( 0, 0, 64, 64 )
+61/is_autotile = false
+61/occluder_offset = Vector2( 32, 32 )
+61/navigation_offset = Vector2( 32, 32 )
+61/shapes = [  ]
+62/name = "tile_77"
+62/texture = ExtResource( 60 )
+62/tex_offset = Vector2( 0, 0 )
+62/modulate = Color( 1, 1, 1, 1 )
+62/region = Rect2( 0, 0, 64, 64 )
+62/is_autotile = false
+62/occluder_offset = Vector2( 32, 32 )
+62/navigation_offset = Vector2( 32, 32 )
+62/shapes = [  ]
+63/name = "tile_78"
+63/texture = ExtResource( 61 )
+63/tex_offset = Vector2( 0, 0 )
+63/modulate = Color( 1, 1, 1, 1 )
+63/region = Rect2( 0, 0, 64, 64 )
+63/is_autotile = false
+63/occluder_offset = Vector2( 32, 32 )
+63/navigation_offset = Vector2( 32, 32 )
+63/shapes = [  ]
+64/name = "tile_79"
+64/texture = ExtResource( 62 )
+64/tex_offset = Vector2( 0, 0 )
+64/modulate = Color( 1, 1, 1, 1 )
+64/region = Rect2( 0, 0, 64, 64 )
+64/is_autotile = false
+64/occluder_offset = Vector2( 32, 32 )
+64/navigation_offset = Vector2( 32, 32 )
+64/shapes = [  ]
+65/name = "tile_80"
+65/texture = ExtResource( 63 )
+65/tex_offset = Vector2( 0, 0 )
+65/modulate = Color( 1, 1, 1, 1 )
+65/region = Rect2( 0, 0, 64, 64 )
+65/is_autotile = false
+65/occluder_offset = Vector2( 32, 32 )
+65/navigation_offset = Vector2( 32, 32 )
+65/shapes = [  ]
+66/name = "tile_82"
+66/texture = ExtResource( 64 )
+66/tex_offset = Vector2( 0, 0 )
+66/modulate = Color( 1, 1, 1, 1 )
+66/region = Rect2( 0, 0, 64, 64 )
+66/is_autotile = false
+66/occluder_offset = Vector2( 32, 32 )
+66/navigation_offset = Vector2( 32, 32 )
+66/shapes = [  ]
+67/name = "tile_83"
+67/texture = ExtResource( 65 )
+67/tex_offset = Vector2( 0, 0 )
+67/modulate = Color( 1, 1, 1, 1 )
+67/region = Rect2( 0, 0, 64, 64 )
+67/is_autotile = false
+67/occluder_offset = Vector2( 32, 32 )
+67/navigation_offset = Vector2( 32, 32 )
+67/shapes = [  ]
+68/name = "tile_84"
+68/texture = ExtResource( 66 )
+68/tex_offset = Vector2( 0, 0 )
+68/modulate = Color( 1, 1, 1, 1 )
+68/region = Rect2( 0, 0, 64, 64 )
+68/is_autotile = false
+68/occluder_offset = Vector2( 32, 32 )
+68/navigation_offset = Vector2( 32, 32 )
+68/shapes = [  ]
+69/name = "tile_85"
+69/texture = ExtResource( 67 )
+69/tex_offset = Vector2( 0, 0 )
+69/modulate = Color( 1, 1, 1, 1 )
+69/region = Rect2( 0, 0, 64, 64 )
+69/is_autotile = false
+69/occluder_offset = Vector2( 32, 32 )
+69/navigation_offset = Vector2( 32, 32 )
+69/shapes = [  ]
+70/name = "tile_86"
+70/texture = ExtResource( 69 )
+70/tex_offset = Vector2( 0, 0 )
+70/modulate = Color( 1, 1, 1, 1 )
+70/region = Rect2( 0, 0, 64, 64 )
+70/is_autotile = false
+70/occluder_offset = Vector2( 32, 32 )
+70/navigation_offset = Vector2( 32, 32 )
+70/shapes = [  ]
+71/name = "tile_87"
+71/texture = ExtResource( 70 )
+71/tex_offset = Vector2( 0, 0 )
+71/modulate = Color( 1, 1, 1, 1 )
+71/region = Rect2( 0, 0, 64, 64 )
+71/is_autotile = false
+71/occluder_offset = Vector2( 32, 32 )
+71/navigation_offset = Vector2( 32, 32 )
+71/shapes = [  ]
+72/name = "tile_88"
+72/texture = ExtResource( 71 )
+72/tex_offset = Vector2( 0, 0 )
+72/modulate = Color( 1, 1, 1, 1 )
+72/region = Rect2( 0, 0, 64, 64 )
+72/is_autotile = false
+72/occluder_offset = Vector2( 32, 32 )
+72/navigation_offset = Vector2( 32, 32 )
+72/shapes = [  ]
+73/name = "tile_89"
+73/texture = ExtResource( 72 )
+73/tex_offset = Vector2( 0, 0 )
+73/modulate = Color( 1, 1, 1, 1 )
+73/region = Rect2( 0, 0, 64, 64 )
+73/is_autotile = false
+73/occluder_offset = Vector2( 32, 32 )
+73/navigation_offset = Vector2( 32, 32 )
+73/shapes = [  ]
+74/name = "tile_90"
+74/texture = ExtResource( 73 )
+74/tex_offset = Vector2( 0, 0 )
+74/modulate = Color( 1, 1, 1, 1 )
+74/region = Rect2( 0, 0, 64, 64 )
+74/is_autotile = false
+74/occluder_offset = Vector2( 32, 32 )
+74/navigation_offset = Vector2( 32, 32 )
+74/shapes = [  ]
+75/name = "tile_91"
+75/texture = ExtResource( 74 )
+75/tex_offset = Vector2( 0, 0 )
+75/modulate = Color( 1, 1, 1, 1 )
+75/region = Rect2( 0, 0, 64, 64 )
+75/is_autotile = false
+75/occluder_offset = Vector2( 32, 32 )
+75/navigation_offset = Vector2( 32, 32 )
+75/shapes = [  ]
+76/name = "tile_92"
+76/texture = ExtResource( 75 )
+76/tex_offset = Vector2( 0, 0 )
+76/modulate = Color( 1, 1, 1, 1 )
+76/region = Rect2( 0, 0, 64, 64 )
+76/is_autotile = false
+76/occluder_offset = Vector2( 32, 32 )
+76/navigation_offset = Vector2( 32, 32 )
+76/shapes = [  ]
+77/name = "tile_93"
+77/texture = ExtResource( 76 )
+77/tex_offset = Vector2( 0, 0 )
+77/modulate = Color( 1, 1, 1, 1 )
+77/region = Rect2( 0, 0, 64, 64 )
+77/is_autotile = false
+77/occluder_offset = Vector2( 32, 32 )
+77/navigation_offset = Vector2( 32, 32 )
+77/shapes = [  ]
+78/name = "tile_94"
+78/texture = ExtResource( 77 )
+78/tex_offset = Vector2( 0, 0 )
+78/modulate = Color( 1, 1, 1, 1 )
+78/region = Rect2( 0, 0, 64, 64 )
+78/is_autotile = false
+78/occluder_offset = Vector2( 32, 32 )
+78/navigation_offset = Vector2( 32, 32 )
+78/shapes = [  ]
+79/name = "tile_95"
+79/texture = ExtResource( 78 )
+79/tex_offset = Vector2( 0, 0 )
+79/modulate = Color( 1, 1, 1, 1 )
+79/region = Rect2( 0, 0, 64, 64 )
+79/is_autotile = false
+79/occluder_offset = Vector2( 32, 32 )
+79/navigation_offset = Vector2( 32, 32 )
+79/shapes = [  ]
+80/name = "tile_96"
+80/texture = ExtResource( 80 )
+80/tex_offset = Vector2( 0, 0 )
+80/modulate = Color( 1, 1, 1, 1 )
+80/region = Rect2( 0, 0, 64, 64 )
+80/is_autotile = false
+80/occluder_offset = Vector2( 32, 32 )
+80/navigation_offset = Vector2( 32, 32 )
+80/shapes = [  ]
+81/name = "tile_97"
+81/texture = ExtResource( 81 )
+81/tex_offset = Vector2( 0, 0 )
+81/modulate = Color( 1, 1, 1, 1 )
+81/region = Rect2( 0, 0, 64, 64 )
+81/is_autotile = false
+81/occluder_offset = Vector2( 32, 32 )
+81/navigation_offset = Vector2( 32, 32 )
+81/shapes = [  ]
+82/name = "tile_98"
+82/texture = ExtResource( 82 )
+82/tex_offset = Vector2( 0, 0 )
+82/modulate = Color( 1, 1, 1, 1 )
+82/region = Rect2( 0, 0, 64, 64 )
+82/is_autotile = false
+82/occluder_offset = Vector2( 32, 32 )
+82/navigation_offset = Vector2( 32, 32 )
+82/shapes = [  ]
+83/name = "tile_99"
+83/texture = ExtResource( 83 )
+83/tex_offset = Vector2( 0, 0 )
+83/modulate = Color( 1, 1, 1, 1 )
+83/region = Rect2( 0, 0, 64, 64 )
+83/is_autotile = false
+83/occluder_offset = Vector2( 32, 32 )
+83/navigation_offset = Vector2( 32, 32 )
+83/shapes = [  ]
+84/name = "tile_100"
+84/texture = ExtResource( 84 )
+84/tex_offset = Vector2( 0, 0 )
+84/modulate = Color( 1, 1, 1, 1 )
+84/region = Rect2( 0, 0, 64, 64 )
+84/is_autotile = false
+84/occluder_offset = Vector2( 32, 32 )
+84/navigation_offset = Vector2( 32, 32 )
+84/shapes = [  ]
+85/name = "tile_101"
+85/texture = ExtResource( 85 )
+85/tex_offset = Vector2( 0, 0 )
+85/modulate = Color( 1, 1, 1, 1 )
+85/region = Rect2( 0, 0, 64, 64 )
+85/is_autotile = false
+85/occluder_offset = Vector2( 32, 32 )
+85/navigation_offset = Vector2( 32, 32 )
+85/shapes = [  ]
+

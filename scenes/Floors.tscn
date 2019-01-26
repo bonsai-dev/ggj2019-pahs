@@ -1,0 +1,522 @@
+[gd_scene load_steps=87 format=2]
+
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_01.png" type="Texture" id=1]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_02.png" type="Texture" id=2]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_03.png" type="Texture" id=3]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_04.png" type="Texture" id=4]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_05.png" type="Texture" id=5]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_06.png" type="Texture" id=6]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_07.png" type="Texture" id=7]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_08.png" type="Texture" id=8]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_09.png" type="Texture" id=9]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_10.png" type="Texture" id=10]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_11.png" type="Texture" id=11]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_12.png" type="Texture" id=12]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_13.png" type="Texture" id=13]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_14.png" type="Texture" id=14]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_15.png" type="Texture" id=15]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_16.png" type="Texture" id=16]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_17.png" type="Texture" id=17]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_18.png" type="Texture" id=18]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_19.png" type="Texture" id=19]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_20.png" type="Texture" id=20]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_28.png" type="Texture" id=21]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_29.png" type="Texture" id=22]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_30.png" type="Texture" id=23]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_31.png" type="Texture" id=24]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_32.png" type="Texture" id=25]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_33.png" type="Texture" id=26]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_34.png" type="Texture" id=27]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_35.png" type="Texture" id=28]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_36.png" type="Texture" id=29]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_37.png" type="Texture" id=30]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_38.png" type="Texture" id=31]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_39.png" type="Texture" id=32]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_40.png" type="Texture" id=33]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_41.png" type="Texture" id=34]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_42.png" type="Texture" id=35]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_43.png" type="Texture" id=36]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_44.png" type="Texture" id=37]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_45.png" type="Texture" id=38]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_46.png" type="Texture" id=39]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_47.png" type="Texture" id=40]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_55.png" type="Texture" id=41]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_56.png" type="Texture" id=42]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_57.png" type="Texture" id=43]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_58.png" type="Texture" id=44]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_59.png" type="Texture" id=45]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_60.png" type="Texture" id=46]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_61.png" type="Texture" id=47]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_62.png" type="Texture" id=48]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_63.png" type="Texture" id=49]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_64.png" type="Texture" id=50]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_65.png" type="Texture" id=51]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_66.png" type="Texture" id=52]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_67.png" type="Texture" id=53]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_68.png" type="Texture" id=54]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_69.png" type="Texture" id=55]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_70.png" type="Texture" id=56]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_71.png" type="Texture" id=57]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_72.png" type="Texture" id=58]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_73.png" type="Texture" id=59]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_74.png" type="Texture" id=60]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_75.png" type="Texture" id=61]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_76.png" type="Texture" id=62]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_77.png" type="Texture" id=63]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_78.png" type="Texture" id=64]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_79.png" type="Texture" id=65]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_80.png" type="Texture" id=66]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_82.png" type="Texture" id=67]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_83.png" type="Texture" id=68]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_84.png" type="Texture" id=69]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_85.png" type="Texture" id=70]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_86.png" type="Texture" id=71]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_87.png" type="Texture" id=72]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_88.png" type="Texture" id=73]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_89.png" type="Texture" id=74]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_90.png" type="Texture" id=75]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_91.png" type="Texture" id=76]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_92.png" type="Texture" id=77]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_93.png" type="Texture" id=78]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_94.png" type="Texture" id=79]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_95.png" type="Texture" id=80]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_96.png" type="Texture" id=81]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_97.png" type="Texture" id=82]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_98.png" type="Texture" id=83]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_99.png" type="Texture" id=84]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_100.png" type="Texture" id=85]
+[ext_resource path="res://assets/topdown-shooter/PNG/Tiles/tile_101.png" type="Texture" id=86]
+
+[node name="Floors" type="Node2D"]
+
+[node name="tile_01" type="Sprite" parent="." index="0"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 1 )
+
+[node name="tile_02" type="Sprite" parent="." index="1"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 2 )
+
+[node name="tile_03" type="Sprite" parent="." index="2"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 3 )
+
+[node name="tile_04" type="Sprite" parent="." index="3"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 4 )
+
+[node name="tile_05" type="Sprite" parent="." index="4"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 5 )
+
+[node name="tile_06" type="Sprite" parent="." index="5"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 6 )
+
+[node name="tile_07" type="Sprite" parent="." index="6"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 7 )
+
+[node name="tile_08" type="Sprite" parent="." index="7"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 8 )
+
+[node name="tile_09" type="Sprite" parent="." index="8"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 9 )
+
+[node name="tile_10" type="Sprite" parent="." index="9"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 10 )
+
+[node name="tile_11" type="Sprite" parent="." index="10"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 11 )
+
+[node name="tile_12" type="Sprite" parent="." index="11"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 12 )
+
+[node name="tile_13" type="Sprite" parent="." index="12"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 13 )
+
+[node name="tile_14" type="Sprite" parent="." index="13"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 14 )
+
+[node name="tile_15" type="Sprite" parent="." index="14"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 15 )
+
+[node name="tile_16" type="Sprite" parent="." index="15"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 16 )
+
+[node name="tile_17" type="Sprite" parent="." index="16"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 17 )
+
+[node name="tile_18" type="Sprite" parent="." index="17"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 18 )
+
+[node name="tile_19" type="Sprite" parent="." index="18"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 19 )
+
+[node name="tile_20" type="Sprite" parent="." index="19"]
+
+position = Vector2( 299.1, -87 )
+texture = ExtResource( 20 )
+
+[node name="tile_28" type="Sprite" parent="." index="20"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 21 )
+
+[node name="tile_29" type="Sprite" parent="." index="21"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 22 )
+
+[node name="tile_30" type="Sprite" parent="." index="22"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 23 )
+
+[node name="tile_31" type="Sprite" parent="." index="23"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 24 )
+
+[node name="tile_32" type="Sprite" parent="." index="24"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 25 )
+
+[node name="tile_33" type="Sprite" parent="." index="25"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 26 )
+
+[node name="tile_34" type="Sprite" parent="." index="26"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 27 )
+
+[node name="tile_35" type="Sprite" parent="." index="27"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 28 )
+
+[node name="tile_36" type="Sprite" parent="." index="28"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 29 )
+
+[node name="tile_37" type="Sprite" parent="." index="29"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 30 )
+
+[node name="tile_38" type="Sprite" parent="." index="30"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 31 )
+
+[node name="tile_39" type="Sprite" parent="." index="31"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 32 )
+
+[node name="tile_40" type="Sprite" parent="." index="32"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 33 )
+
+[node name="tile_41" type="Sprite" parent="." index="33"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 34 )
+
+[node name="tile_42" type="Sprite" parent="." index="34"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 35 )
+
+[node name="tile_43" type="Sprite" parent="." index="35"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 36 )
+
+[node name="tile_44" type="Sprite" parent="." index="36"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 37 )
+
+[node name="tile_45" type="Sprite" parent="." index="37"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 38 )
+
+[node name="tile_46" type="Sprite" parent="." index="38"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 39 )
+
+[node name="tile_47" type="Sprite" parent="." index="39"]
+
+position = Vector2( 35.1, 79 )
+texture = ExtResource( 40 )
+
+[node name="tile_55" type="Sprite" parent="." index="40"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 41 )
+
+[node name="tile_56" type="Sprite" parent="." index="41"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 42 )
+
+[node name="tile_57" type="Sprite" parent="." index="42"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 43 )
+
+[node name="tile_58" type="Sprite" parent="." index="43"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 44 )
+
+[node name="tile_59" type="Sprite" parent="." index="44"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 45 )
+
+[node name="tile_60" type="Sprite" parent="." index="45"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 46 )
+
+[node name="tile_61" type="Sprite" parent="." index="46"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 47 )
+
+[node name="tile_62" type="Sprite" parent="." index="47"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 48 )
+
+[node name="tile_63" type="Sprite" parent="." index="48"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 49 )
+
+[node name="tile_64" type="Sprite" parent="." index="49"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 50 )
+
+[node name="tile_65" type="Sprite" parent="." index="50"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 51 )
+
+[node name="tile_66" type="Sprite" parent="." index="51"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 52 )
+
+[node name="tile_67" type="Sprite" parent="." index="52"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 53 )
+
+[node name="tile_68" type="Sprite" parent="." index="53"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 54 )
+
+[node name="tile_69" type="Sprite" parent="." index="54"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 55 )
+
+[node name="tile_70" type="Sprite" parent="." index="55"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 56 )
+
+[node name="tile_71" type="Sprite" parent="." index="56"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 57 )
+
+[node name="tile_72" type="Sprite" parent="." index="57"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 58 )
+
+[node name="tile_73" type="Sprite" parent="." index="58"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 59 )
+
+[node name="tile_74" type="Sprite" parent="." index="59"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 60 )
+
+[node name="tile_75" type="Sprite" parent="." index="60"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 61 )
+
+[node name="tile_76" type="Sprite" parent="." index="61"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 62 )
+
+[node name="tile_77" type="Sprite" parent="." index="62"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 63 )
+
+[node name="tile_78" type="Sprite" parent="." index="63"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 64 )
+
+[node name="tile_79" type="Sprite" parent="." index="64"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 65 )
+
+[node name="tile_80" type="Sprite" parent="." index="65"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 66 )
+
+[node name="tile_82" type="Sprite" parent="." index="66"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 67 )
+
+[node name="tile_83" type="Sprite" parent="." index="67"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 68 )
+
+[node name="tile_84" type="Sprite" parent="." index="68"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 69 )
+
+[node name="tile_85" type="Sprite" parent="." index="69"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 70 )
+
+[node name="tile_86" type="Sprite" parent="." index="70"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 71 )
+
+[node name="tile_87" type="Sprite" parent="." index="71"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 72 )
+
+[node name="tile_88" type="Sprite" parent="." index="72"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 73 )
+
+[node name="tile_89" type="Sprite" parent="." index="73"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 74 )
+
+[node name="tile_90" type="Sprite" parent="." index="74"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 75 )
+
+[node name="tile_91" type="Sprite" parent="." index="75"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 76 )
+
+[node name="tile_92" type="Sprite" parent="." index="76"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 77 )
+
+[node name="tile_93" type="Sprite" parent="." index="77"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 78 )
+
+[node name="tile_94" type="Sprite" parent="." index="78"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 79 )
+
+[node name="tile_95" type="Sprite" parent="." index="79"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 80 )
+
+[node name="tile_96" type="Sprite" parent="." index="80"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 81 )
+
+[node name="tile_97" type="Sprite" parent="." index="81"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 82 )
+
+[node name="tile_98" type="Sprite" parent="." index="82"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 83 )
+
+[node name="tile_99" type="Sprite" parent="." index="83"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 84 )
+
+[node name="tile_100" type="Sprite" parent="." index="84"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 85 )
+
+[node name="tile_101" type="Sprite" parent="." index="85"]
+
+position = Vector2( 140.1, -37 )
+texture = ExtResource( 86 )
+
+
