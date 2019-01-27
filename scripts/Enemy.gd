@@ -2,34 +2,42 @@ extends KinematicBody2D
 
 export (int) var speed = 100
 export (float) var accel = 0.1
+export (int) var nav_stop_threshold = 10
+export (int) var max_speed = 700
 
 var motion = Vector2()
-var isSelected = false
 var movTarget = null
 
+onready var navigation = Global.navigation_east
+onready var destination = Global.target_east
+
+var path = []
 
 func _ready():
-	
-	$DebugLine.add_point(Vector2())
-	$DebugLine.add_point(Vector2())
+	path.append(position)
 
 
 func _process(delta):
-	#var target = get_global_mouse_position();
-	var target = position
-	if movTarget != null:
-		target = movTarget
-	update_motion(delta, target)
+	
+	navigate(delta)
+
 	move_and_slide(motion)
-	
-	if motion.length() == 0:
-		movTarget = null
-	
-	$DebugLine.set_point_position(0, to_local(position))
-	$DebugLine.set_point_position(1, to_local(get_global_mouse_position()))
 
-	$DebugLine.visible = isSelected
 
+func navigate(delta):
+	movTarget = path[0]
+	var distance = position.distance_to(movTarget)
+
+	if distance > nav_stop_threshold:
+		update_motion(delta, movTarget)
+	else:
+		update_path()
+
+func update_path():
+	if path.size() > 1:
+		path.remove(0)
+	else:
+		make_path()
 
 func update_motion(delta, target):
 	
@@ -38,8 +46,9 @@ func update_motion(delta, target):
 	
 	motion = newPosition - oldPosition 
 	
-	if motion.length() > $Sprite.texture.get_width():
-		look_at(target)
+	if motion.length() > nav_stop_threshold:
+		look_at(newPosition)
+		#print(newPosition)
 		motion = motion.normalized() * speed
 	else:
 		motion = motion * 0
@@ -49,3 +58,7 @@ func update_motion(delta, target):
 
 func move(position):
 	movTarget = position
+	
+func make_path():
+	path = navigation.get_simple_path(position, destination.global_position)
+	pass

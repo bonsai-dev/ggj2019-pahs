@@ -4,7 +4,6 @@ export (int) var speed = 100
 export (float) var accel = 0.1
 
 var motion = Vector2()
-var motion = Vector2()
 
 func _process(delta):
 	update_motion(delta)
