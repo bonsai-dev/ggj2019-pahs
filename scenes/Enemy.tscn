@@ -9,7 +9,7 @@ custom_solver_bias = 0.0
 radius = 8.77618
 height = 13.3721
 
-[node name="Enemy" type="KinematicBody2D" index="0"]
+[node name="Enemy" type="KinematicBody2D"]
 
 input_pickable = true
 collision_layer = 1
@@ -18,9 +18,7 @@ collision/safe_margin = 0.08
 script = ExtResource( 1 )
 _sections_unfolded = [ "Pickable", "collision" ]
 speed = 100
-accel = 0.1
 nav_stop_threshold = 10
-max_speed = 700
 
 [node name="Sprite" type="Sprite" parent="." index="0"]
 

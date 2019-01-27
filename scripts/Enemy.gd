@@ -1,9 +1,7 @@
 extends KinematicBody2D
 
 export (int) var speed = 100
-export (float) var accel = 0.1
 export (int) var nav_stop_threshold = 10
-export (int) var max_speed = 700
 
 var motion = Vector2()
 var movTarget = null

@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://scripts/DefenseLevel.gd" type="Script" id=1]
 [ext_resource path="res://Tilesets/Floors.tres" type="TileSet" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://scripts/NavEast.gd" type="Script" id=4]
 [ext_resource path="res://scripts/Target.gd" type="Script" id=5]
 [ext_resource path="res://scenes/Enemy.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scenes/Lootpile.tscn" type="PackedScene" id=7]
 
 [sub_resource type="NavigationPolygon" id=1]
 
@@ -13,17 +14,15 @@ vertices = PoolVector2Array( 1433, 342.3, 1442, 374.3, 1109, 367.3, 1139, 338.3,
 polygons = [ PoolIntArray( 0, 1, 2, 3 ), PoolIntArray( 3, 2, 4, 5 ), PoolIntArray( 6, 5, 4, 7 ), PoolIntArray( 8, 6, 7, 9 ), PoolIntArray( 8, 9, 10, 11 ) ]
 outlines = [ PoolVector2Array( 1433, 342.3, 1139, 338.3, 1133, 77.3, 895.4, 70.5, 896.4, 324.1, 647.4, 325.1, 645.4, 375.1, 941.4, 380.1, 942.6, 119.9, 1101, 113.3, 1109, 367.3, 1442, 374.3 ) ]
 
-[node name="Level" type="Node2D" index="0"]
+[node name="Level" type="Node2D"]
 
 position = Vector2( -0.750015, -0.5 )
 script = ExtResource( 1 )
-__meta__ = {
-"_edit_group_": true
-}
+_sections_unfolded = [ "Transform" ]
 
 [node name="Floors" type="TileMap" parent="." index="0"]
 
-position = Vector2( -5.99988, 0 )
+position = Vector2( -5.99986, 0 )
 mode = 0
 tile_set = ExtResource( 2 )
 cell_size = Vector2( 64, 64 )
@@ -79,5 +78,11 @@ script = ExtResource( 5 )
 [node name="Enemy" parent="." index="3" instance=ExtResource( 6 )]
 
 position = Vector2( 1425, 355 )
+
+[node name="Lootpile" parent="." index="4" instance=ExtResource( 7 )]
+
+position = Vector2( 225, 332.2 )
+scale = Vector2( 0.5, 0.5 )
+_sections_unfolded = [ "Transform" ]
 
 
